@@ -1,0 +1,7 @@
+{
+  "name": "clean-node-api-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ruifernandees <dev.ruifernandes@gmail.com>",
+  "license": "MIT"
+}
