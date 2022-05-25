@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "test:staged": "jest"
+    "test:staged": "jest",
+    "lint": "eslint --ext .js,.jsx"
   },
   "devDependencies": {
     "@types/jest": "^27.5.1",
