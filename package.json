@@ -5,8 +5,8 @@
   "author": "ruifernandees <dev.ruifernandes@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest",
+    "test": "jest --passWithNoTests --watch",
+    "test:staged": "jest --passWithNoTests",
     "lint": "eslint --ext .js,.jsx"
   },
   "devDependencies": {
