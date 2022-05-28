@@ -3,7 +3,7 @@ export default {
   transform: {
     '.+\\.ts$': 'ts-jest'
   },
-  collectCoverage: true,
+  // collectCoverage: true,
   collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
   coverageDirectory: 'coverage',
   coverageProvider: 'v8',
