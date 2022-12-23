@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "_id": "0d5ffe54-9de1-42bb-a9e3-5f4d404ec787",
+    "colId": "f97d3759-0536-4c07-a1ee-79625d66c62d",
+    "containerId": "",
+    "name": "SignUp",
+    "url": "http://localhost:5050/api/signup",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-12-23T01:21:42.724Z",
+    "modified": "2022-12-23T01:23:15.952Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Rui\",\n  \"email\": \"rui@mail.com\",\n  \"password\": \"123\",\n  \"passwordConfirmation\": \"123\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
