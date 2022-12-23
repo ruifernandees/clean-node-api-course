@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "eb571a23-7a65-4fce-8c00-47563a43de4c",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:5050/api/signup",
+    "url": "localhost:5050/api/signup",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-12-23T01:19:29.372Z",
+    "modified": "2022-12-23T01:19:29.372Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
