@@ -15,10 +15,10 @@ export const MongoHelper = {
     return this.client.db().collection(name)
   },
 
-  map (data: any, result: any): any {
+  map ({ _id, ...data }: any): any {
     return {
       ...data,
-      id: result.insertedId.toString()
+      id: _id
     }
   }
 }
