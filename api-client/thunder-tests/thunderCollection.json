@@ -4,6 +4,13 @@
     "colName": "Clean Node API",
     "created": "2022-12-23T01:21:24.856Z",
     "sortNum": 10000,
-    "folders": []
+    "folders": [],
+    "settings": {
+      "headers": [],
+      "tests": [],
+      "options": {
+        "baseUrl": "{{baseURL}}"
+      }
+    }
   }
 ]
