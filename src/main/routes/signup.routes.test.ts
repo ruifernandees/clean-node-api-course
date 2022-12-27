@@ -19,7 +19,7 @@ describe('SignUp routes', () => {
 
   test('Should return an account on success', async () => {
     await request(app)
-      .get('/api/signup')
+      .post('/api/signup')
       .send({
         name: 'Rui',
         email: 'rui@mail.com',
