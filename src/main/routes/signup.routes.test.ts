@@ -1,10 +1,11 @@
 import request from 'supertest'
 import { MongoHelper } from '../../infra/db/mongodb/helpers/mongo-helper'
 import { app } from '../config/app'
+import env from '../config/env'
 
 describe('SignUp routes', () => {
   beforeAll(async () => {
-    await MongoHelper.connect(process.env.MONGO_URL)
+    await MongoHelper.connect(env.mongoUrlTest)
   })
 
   afterAll(async () => {
@@ -12,7 +13,7 @@ describe('SignUp routes', () => {
   })
 
   beforeEach(async () => {
-    const accountCollection = MongoHelper.getCollection('accounts')
+    const accountCollection = await MongoHelper.getCollection('accounts')
     // Remove todos os registros da tabela
     await accountCollection.deleteMany({})
   })
