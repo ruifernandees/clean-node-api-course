@@ -1,5 +1,10 @@
 import { Controller, HttpRequest, HttpResponse } from '../../presentation/protocols'
 
+/**
+ * TTT
+ * Envolve outras classes, que implementam a mesma interface (Controller)
+ * O decorator deve implementar também essa interface (Controller)
+ */
 export class LogControllerDecorator implements Controller {
   private readonly controller: Controller
 
